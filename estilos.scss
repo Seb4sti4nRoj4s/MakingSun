@@ -1,0 +1,692 @@
+/*CSS Index*/
+.blockIndex1{
+    background-color: #fef0cd;
+    display: flex;
+    flex-flow: row;
+    padding-bottom: .8vw;
+    .blockIndex1_1{
+        background-color: #f0c552;
+        margin-left: 3%;
+        width: 25vw;
+        display: flex;
+    }
+        .imagenInicioIndex{
+            width: 23vw;
+            height: 21vw;
+            margin-left: 3%;
+            margin-bottom: 2%;
+        }
+    .blockIndex1_2{
+        text-align: left;
+        padding: 4vw;
+    }
+        .tituloEspecial:hover{
+            text-align: center;
+            transform: scale(120%);
+            transition: 1s;
+        }
+        .subtituloEspecial:hover{
+            text-align: center;
+            transform: scale(120%);
+            transition: 1s;
+        }
+}
+.blockEspecial{
+    height: 85px;
+    background-image: url(multimedia/Fondos/bannerFONDO.jpg);
+}
+.blockIndex2{
+    padding-left: 3vw;
+    display: flex;
+    flex-flow: row;
+    background-image: url(multimedia/Fondos/fondoCafe.jpg);
+    background-size: cover;
+    .bannerIndex1{
+        height: 20vw;
+        width: 20vw;
+    }
+        .bannerIndex1:hover{
+            transform: scale(120%);
+            transition: transform 1s;
+        }
+    .bannerIndex2{
+        height: 20vw;
+        width: 20vw;
+        margin-left: 5vw;
+    }
+        .bannerIndex2:hover{
+            transform: scale(120%);
+            transition: transform 1s;
+        }
+    .bannerIndex3{
+        height: 20vw;
+        width: 20vw;
+        margin-left: 5vw;
+    }
+        .bannerIndex3:hover{
+            transform: scale(120%);
+            transition: transform 1s;
+        }
+    .bannerIndex4{
+        height: 20vw;
+        width: 20vw;
+        margin-left: 5vw;
+    }
+        .bannerIndex4:hover{
+            transform: scale(120%);
+            transition: transform 1s;
+        }
+}
+.blockIndex3{
+    background-image: url(multimedia/Fondos/fondoVideo1.png);
+    background-size: cover;
+    padding-top: 6.5vw;
+    .videoIndex1{
+        width: 70vw;
+        height: 50vw;
+        margin-left: 15.2vw;
+        margin-bottom: 8vw;
+    }
+}
+.blockIndex4{
+    background-color: #ebf1f4;
+    text-align: center;
+    padding: 5vw;
+    font-family: JMH Typewriter;
+}
+.blockIndex5{
+    display: flex;
+    background-color: #ebf1f4;
+    background-size: contain;
+    padding: 3vw;
+    .blockIndex5_1{
+        display: flex;
+        flex-flow: column;
+        margin-left: 6.5vw;
+        align-items: center;
+    }
+    .blockIndex5_2{
+        display: flex;
+        flex-flow: column;
+        margin-left: 11.5vw;
+        align-items: center;
+    }
+    .blockIndex5_3{
+        display: flex;
+        flex-flow: column;
+        margin-left: 11.5vw;
+    }
+        .imagenTrabajo{
+            width: 20vw;
+            height: 20vw;
+        }
+}
+.blockIndex6{
+    background-color: #f95b79;
+    text-align: center;
+    padding: 5vw;
+    font-family: JMH Typewriter;
+    .botonRedesSocialesIndex{
+        background-color: #f95b79;
+        .iconoRedesSociales{
+            height: 5vw;
+            width: 5vw;
+        }
+    }
+}
+.piePaginaIndex{
+    display: grid;
+    padding-left: 10vw;
+    background-color: #f95b79;
+        .navPiePaginaIndex{
+            background-color: #f95b79;
+        }
+        .navPiePaginaIndex ul{
+            list-style: none;
+        }
+            .navPiePaginaIndex ul li{
+                font-size: 1vw;
+                font-family: JMH Typewriter;
+                text-align: start;
+            }
+}
+
+/*CSS Sobre Mi*/
+.navegadorSobreMi{
+    background-image: url(multimedia/Fondos/bannerMenu1.jpg);
+    background-position: center;
+}
+.blockSobreMi1{
+    padding: 5vw;
+    text-align: center;
+    background-image: url(multimedia/Fondos/bannerSobreMi.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+.blockSobreMi2{
+    background-image: url(multimedia/Fondos/fondoSobreMi.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 67vw;
+    margin: 0%;
+    .blockSobreMi2_1{
+        position: absolute;
+        z-index: 1;
+        margin-top: 7vw;
+        margin-left: 17.5vw;
+    }
+        .fotoAleSobreMi{
+            width: 28vw;
+            height: 43vw;
+        }
+    .blockSobreMi2_2{
+        width: 33vw;
+        height: 52vw;
+        margin-top: 12vw;
+        margin-left: 15vw;
+        position: absolute;
+        z-index: 0;
+        background-color: #f0c552;
+        text-align: center;
+    }
+        .textoSobreMi1{
+            font-family: JMH Typewriter;
+            font-size: 2.7vw;
+            padding-top: 40vw;
+        }
+}
+.blockEspecialSobreMi{
+    height: 26vw;
+    background-image: url(multimedia/Fondos/bannerTexto.jpg);
+    background-position: top;
+    background-size: cover;
+}
+.blockSobreMi3{
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+    .textoSobreMi2{
+        font-family: JMH Typewriter;
+        font-size: 2vw;
+        text-align: center;
+        padding-bottom: 5vw;
+    }
+}
+.blockSobreMi4{
+    background-color: white;
+    padding-left: 30vw;
+    .imagenLogoSobreMi{
+        width: 40vw;
+        height: 40vw;
+    }
+}
+.blockSobreMi5{
+    background-color: white;
+    text-align: center;
+    padding: 5vw;
+    font-family: JMH Typewriter;
+    .botonRedesSocialesSobreMi{
+        background-color: white;
+        .iconoRedesSociales{
+            height: 5vw;
+            width: 5vw;
+        }
+    }
+}
+.piePaginaSobreMi{
+    background-color: white;
+    display: grid;
+    padding-left: 10vw;
+    .navPiePaginaSobreMi{
+        background-color: white;
+    }
+        .navPiePaginaSobreMi ul{
+            list-style: none;
+        }
+        .navPiePaginaSobreMi ul li{
+            font-size: 1vw;
+            font-family: JMH Typewriter;
+            text-align: start;
+        }
+}
+
+    /*CSS Ilustracion*/
+.navegadorIlustraciones{
+    background-color: white;
+}
+.blockIlustraciones1{
+    background-image: url(multimedia/Fondos/bannerIlu.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 48vw;
+    .blockIlustraciones1__1{
+        background-color: white;
+        width: 45vw;
+        margin-top: 42vw;
+    }
+}
+.blockEspecialIlustraciones{
+    background-image: url("multimedia/Fondos/manchaPinturaIlu.jpg");
+    background-position: bottom;
+    background-size: cover;
+    height: 20vw;
+}
+.blockIlustraciones2{
+    background-color: white;
+    .textoIlustraciones1{
+        font-family: JMH Typewriter;
+        font-size: 2vw;
+        text-align: center;
+        padding: 5vw;
+    }
+}
+.blockIlustraciones3{
+    background-color: white;
+    display: flex;
+    flex-flow: row;
+    padding-bottom: 3vw;
+    padding-top: 5vw;
+}
+.blockIlustraciones4{
+    display: flex;
+    flex-flow: row;
+    .ilustracionEspecial{
+        height: 50vw;
+        width: 55vw;
+    }
+    .blockIlustraciones4_2{
+        background-color: #24575b;
+        .textoIlustraciones2{
+            color: white;
+            font-family: JMH Typewriter;
+            font-size: 2vw;
+            text-align: justify;
+            padding-top: 13vw;
+            padding-right: 5vw;
+            padding-left: 5vw;
+        }
+    }
+}
+.blockIlustraciones5{
+    background-color: white;
+    display: flex;
+    flex-flow: row;
+    padding-bottom: 3vw;
+    padding-top: 3vw;
+        .ilustracion{
+            width: 32vw;
+            height: 26vw;
+            padding-left: 7vw;
+        }
+}
+.blockIlustraciones6{
+    background-color: white;
+    padding: 5vw;
+    .textoIlustraciones3{
+        font-family: JMH Typewriter;
+        font-size: 4vw;
+        text-align: center;
+        i{
+            color: #f2d45b;
+        }
+    }
+}
+.blockEspecialIlustraciones2{
+    background-image: url(multimedia/Fondos/manchaPinturaIlu2.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 10vw;
+}
+
+/*CSS Arte en Tela*/
+.blockArteTela1{
+    background-image: url("multimedia/Fondos/manchaArteenTela.jpg");
+    background-size: cover;
+    background-position: bottom ;
+    .blockArteTela1_1{
+        padding-left: 38vw;
+        padding-top: 5vw;
+        .principalArteTela{
+            height: 47vw;
+            width: 27vw;
+        }
+    }
+    .blockArteTela1_2{
+        text-align: center;
+        margin-bottom: 10vw;
+        color: white;
+    }
+}
+.blockArteTela2{
+    text-align: center;
+    transition: 1s;
+    .textoArteTela1{
+        font-family: JMH Typewriter;;
+        font-size: 3.5vw;
+        padding-bottom: 3vw;
+        .textoArteTela1:hover{
+            transform: scale(120%);
+        }
+    }
+}
+.blockArteTela3{
+    padding: 0%;
+    .videoArteTela1{
+        width: 100%;
+    }
+}
+.blockArteTela4{
+    display: flex;
+    flex-flow: wrap;
+    .imagenArteTela{
+        width: 49vw;
+        height: 49vw;
+        padding: 2vw;
+    }
+}
+.blockEspecialArteTela{
+    height: 15vw;
+    background-image: url("multimedia/Fondos/manchaArteenTela2.jpg");
+    background-position: top;
+    background-size: cover;
+}
+.blockArteTela5{
+    padding: 0%;
+    .videoArteTela2{
+        width: 100%;
+    }
+}
+.blockArteTela6{
+    background-color: white;
+    text-align: center;
+    padding: 5vw;
+    font-family: JMH Typewriter;
+}
+.piePaginaArteTela{
+    display: grid;
+    background-color: #fef0cd;
+    .navPiePaginaArteTela{
+        background-color: #fef0cd;
+    }
+        .navPiePaginaArteTela ul{
+            list-style: none;
+        }
+        .navPiePaginaArteTela ul li{
+            font-size: 1vw;
+            font-family: JMH Typewriter;
+            text-align: start;
+        }
+}
+
+/*CSS Genericos*/
+    /*Titulos*/
+.tituloEspecial{
+    font-size: 6vw;
+    margin: 0%;
+    letter-spacing: .8vw;
+    color: #8B4513;
+    font-family: JMH Typewriter
+}
+.subtituloEspecial{
+    font-size: 4.8vw;
+    margin: 0%;
+    color: #8B4513;
+    font-family: Bacalisties;
+}
+.subtitulos{
+    font-size: 4vw;
+    letter-spacing: 1vw;
+    font-family: JMH Typewriter;
+    .subtitulos:hover{
+        transform: scale(120%);
+        transition: 1s;
+    }
+}
+        /*Fuente Titulo especial*/
+            @font-face{ 
+            font-family: JMH Typewriter;
+            src: url("Fuentes/jmh_typewriter/JMH\ Typewriter-Thin.ttf");
+        }
+        /*Fuente Subtitulo especial*/
+            @font-face{
+                font-family: Bacalisties;
+                src: url("fuentes/bacalisties/Bacalisties.ttf");
+            }
+    /*Etiquetas*/
+body{
+    margin: 0%;
+    display: flex;
+    flex-flow: column;
+}
+    /*Navegador*/
+nav{
+    background-color: #fef0cd;
+    nav ul li{
+        padding-left: 5vw;
+    }
+}
+    /*Pie de Pagina*/
+.redesSociales{
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 1vw;
+    font-family: JMH Typewriter;
+    text-align: center;
+}
+.navegadorPiePagina{
+    grid-column: 2;
+    grid-row: 1;
+}
+.miTrabajoPiePagina{
+    grid-column: 3;
+    grid-row: 1;
+}
+.derechosAutor{
+    grid-column: 1 / span 3;
+    grid-row: 2;
+    font-size: 1vw;
+    font-family: JMH Typewriter;
+    text-align: center;
+}
+
+
+/*Vista Movil*/
+@media(max-width: 550px){
+    /*CSS Index*/
+    .blockIndex1{
+        background-color: #fef0cd;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+        .blockIndex1_1{
+            background-color: #f0c552;
+            width: 58vw;
+            height: 48vw;
+            display: flex;
+        }
+            .imagenInicioIndex{
+                width: 53vw;
+                height: 45vw;
+            }
+        .blockIndex1_2{
+            text-align: center;
+            padding: 4vw;
+        }
+    .blockIndex2{
+        padding: 3%;
+        padding-top: 10vw;
+        display: flex;
+        flex-flow: row wrap;
+        background-color: #d7c175;
+        background-size: cover;
+        
+        }
+        .bannerIndex1{
+            height: 30vw;
+            width: 30vw;
+            margin-left: 10vw;
+        }
+        .bannerIndex2{
+            height: 30vw;
+            width: 30vw;
+            margin-left: 11vw;
+        }
+        .bannerIndex3{
+            height: 30vw;
+            width: 30vw;
+            margin-left: 10vw;
+            margin-top: 10vw;
+        }
+        .bannerIndex4{
+            height: 30vw;
+            width: 30vw;
+            margin-left: 11vw;
+            margin-top: 10vw;
+        }
+    .blockIndex5{
+        display: flex;
+        flex-flow: column;
+        background-size: contain;
+        padding: 3vw;
+    }
+        .blockIndex5_1{
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            padding-bottom: 6.5vw;
+        }
+        .blockIndex5_2{
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            padding-bottom: 6.5vw;
+                
+        }
+        .blockIndex5_3{
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            padding-bottom: 6.5vw;
+        }
+            .imagenTrabajo{
+                width: 45vw;
+                height: 45vw;
+            }
+    .blockIndex6{
+        background-color: #f95b79;
+        text-align: center;
+        padding: 5vw;
+        font-family: JMH Typewriter;
+    }
+        .botonRedesSociales{
+            background-color: #f95b79;
+        }
+            .iconoRedesSociales{
+                width: 10vw;
+                height: 10vw;
+            }
+    .piePaginaIndex{
+        display: flex;
+        flex-flow: column;
+        padding-left: 10vw;
+        background-color: #f95b79;
+    }
+        .redesSociales{
+            font-size: 4vw;
+            font-family: JMH Typewriter;
+            text-align: center;
+        }
+    .navPiePaginaIndex{
+        background-color: #f95b79;
+    }
+        .navPiePaginaIndex ul{
+            list-style: none;
+            padding: 0%;
+        }
+            .navPiePaginaIndex ul li{
+                font-size: 4vw;
+                font-family: JMH Typewriter;
+                text-align: center;
+            }
+    .miTrabajoPiePagina{
+        align-self: center;
+        padding-bottom: 8vw;
+    }
+    .derechosAutor{
+        font-size: 4vw;
+        font-family: JMH Typewriter;
+        text-align: center;
+    }
+    /*Titulos*/
+    .tituloEspecial{
+        font-size: 12vw;
+        margin: 0%;
+        letter-spacing: .8vw;
+        color: #8B4513;
+        font-family: JMH Typewriter
+    }   
+    .subtituloEspecial{
+        font-size: 9vw;
+        margin: 0%;
+        color: #8B4513;
+        font-family: Bacalisties;
+    }
+    .subtitulos{
+        font-size: 7vw;
+        letter-spacing: 1vw;
+        font-family: JMH Typewriter;
+    }
+    /*CSS Sobre Mi*/
+
+    .blockSobreMi2_1{
+        position: absolute;
+        z-index: 1;
+        margin-top: 4vw;
+        margin-left: 19vw;
+    }
+        .fotoAleSobreMi{
+            width: 31vw;
+            height: 46vw;
+        }
+    .blockSobreMi2_2{
+        width: 41vw;
+        height: 57vw;
+        margin-top: 9vw;
+        margin-left: 14vw;
+        position: absolute;
+        z-index: 0;
+        background-color: #f0c552;
+        text-align: center;
+    }
+        .textoSobreMi1{
+            font-family: JMH Typewriter;
+            font-size: 3.5vw;
+            padding-top: 43vw;
+        }
+    .blockSobreMi3{
+        background-color: white;
+        display: flex;
+        flex-flow: row wrap;
+    }
+        .textoSobreMi2{
+            font-family: JMH Typewriter;
+            font-size: 4vw;
+            text-align: center;
+            padding-bottom: 5vw;
+            padding-right: 10vw;
+            padding-left: 10vw;
+        }
+    .piePaginaSobreMi{
+        background-color: white;
+        display: flex;
+        flex-flow: column;
+    }
+        .navPiePaginaSobreMi ul li{
+            font-size: 3.5vw;
+            font-family: JMH Typewriter;
+            text-align: center;
+            padding-right: 10vw;
+        }
+}
+
