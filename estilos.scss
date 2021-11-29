@@ -115,6 +115,7 @@
         display: flex;
         flex-flow: column;
         margin-left: 11.5vw;
+        align-items: center;
     }
         .imagenTrabajo{
             width: 20vw;
@@ -416,6 +417,121 @@
             font-family: JMH Typewriter;
             text-align: start;
         }
+}
+
+/*CSS Pinturas*/
+.blockPintura1{
+    background-image: url("multimedia/Fondos/pinturaBanner1.jpg");
+    background-size: cover;
+    height: 50vw;
+    .blockPintura1_1{
+        .imagenTituloPintura{
+            height: 50vw;
+            width: 50vw;
+            z-index: 0;
+            position: absolute;
+        }
+    }
+    .blockPintura1_2{
+        background-color: #11b0d0;
+        height: 11vw;
+        width: 22vw;
+        z-index: 1;
+        position: absolute;
+        margin-left: 74vw;
+        margin-top: 10vw;
+    }
+    .blockPintura1_3{
+        background-color: #a91b0d;
+        height: 15vw;
+        width: 53.5vw;
+        z-index: 2;
+        position: absolute;
+        margin-left: 46vw;
+        margin-top: 21vw;
+    }
+    .blockPintura1_4{
+        background-color: #fed351;
+        height: 17vw;
+        width: 17vw;
+        z-index: 3;
+        position: absolute;
+        margin-left: 49vw;
+        margin-top: 31vw;
+    }
+    .blockPintura1_5{
+        height: 14vw;
+        width: 52.5vw;
+        z-index: 4;
+        position: absolute;
+        margin-left: 46.4vw;
+        margin-top: 21.5vw;
+        border: solid white;
+        .textoPintura1{
+            font-size: 8vw;
+            font-family: Bacalisties;
+            color: white;
+        }
+    }
+}
+.blockPintura2{
+    background-color: #f95b79;
+    text-align: center;
+    padding: 3vw;
+    color: white;
+}
+.blockPintura3{
+    background-image: url("multimedia/Fondos/fondoColoreando.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    padding: 5vw;
+    .blockPintura3_2{
+        margin-left: 10vw;
+        margin-top: 10vw;
+    }
+}
+.blockPintura4{
+    background-image: url("multimedia/Fondos/fondoPlural.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    padding: 5vw;
+    .blockPintura4_1{
+        margin-left: 10vw;
+        margin-top: 10vw;
+        color: white;
+    }
+    .blockPintura4_2{
+        margin-left: 20vw;
+    }
+}
+.blockPintura5{
+    background-image: url("multimedia/Fondos/fondoTuLuz.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    padding: 5vw;
+    .blockPintura5_2{
+        margin-left: 10vw;
+        margin-top: 10vw;
+    }
+}
+.blockPintura6{
+    background-color: #f95b79;
+    text-align: center;
+    font-family: JMH Typewriter;
+    font-size: 2vw;
+    padding: 3vw;
+    color: white;
+}
+.textoPintura{
+    font-size: 1.5vw;
+    font-family: JMH Typewriter;
+}
+.imagenPintura{
+    height: 40vw;
+    width: 40vw;
 }
 
 /*CSS Genericos*/
