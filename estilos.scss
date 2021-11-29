@@ -33,13 +33,13 @@
 }
 .blockEspecial{
     height: 85px;
-    background-image: url(multimedia/Fondos/bannerFONDO.jpg);
+    background-image: url("Multimedia/Fondos/bannerFONDO.jpg");
 }
 .blockIndex2{
     padding-left: 3vw;
     display: flex;
     flex-flow: row;
-    background-image: url(multimedia/Fondos/fondoCafe.jpg);
+    background-image: url("Multimedia/Fondos/fondoCafe.jpg");
     background-size: cover;
     .bannerIndex1{
         height: 20vw;
@@ -78,7 +78,7 @@
         }
 }
 .blockIndex3{
-    background-image: url(multimedia/Fondos/fondoVideo1.png);
+    background-image: url("Multimedia/Fondos/fondoVideo1.png");
     background-size: cover;
     padding-top: 6.5vw;
     .videoIndex1{
@@ -154,18 +154,18 @@
 
 /*CSS Sobre Mi*/
 .navegadorSobreMi{
-    background-image: url(multimedia/Fondos/bannerMenu1.jpg);
+    background-image: url("Multimedia/Fondos/bannerMenu1.jpg");
     background-position: center;
 }
 .blockSobreMi1{
     padding: 5vw;
     text-align: center;
-    background-image: url(multimedia/Fondos/bannerSobreMi.jpg);
+    background-image: url("Multimedia/Fondos/bannerSobreMi.jpg");
     background-position: bottom;
     background-size: cover;
 }
 .blockSobreMi2{
-    background-image: url(multimedia/Fondos/fondoSobreMi.jpg);
+    background-image: url("Multimedia/Fondos/fondoSobreMi.jpg");
     background-size: cover;
     background-position: center;
     height: 67vw;
@@ -198,7 +198,7 @@
 }
 .blockEspecialSobreMi{
     height: 26vw;
-    background-image: url(multimedia/Fondos/bannerTexto.jpg);
+    background-image: url("Multimedia/Fondos/bannerTexto.jpg");
     background-position: top;
     background-size: cover;
 }
@@ -256,7 +256,7 @@
     background-color: white;
 }
 .blockIlustraciones1{
-    background-image: url(multimedia/Fondos/bannerIlu.jpg);
+    background-image: url("Multimedia/Fondos/bannerIlu.jpg");
     background-position: top;
     background-size: cover;
     height: 48vw;
@@ -267,7 +267,7 @@
     }
 }
 .blockEspecialIlustraciones{
-    background-image: url("multimedia/Fondos/manchaPinturaIlu.jpg");
+    background-image: url("Multimedia/Fondos/manchaPinturaIlu.jpg");
     background-position: bottom;
     background-size: cover;
     height: 20vw;
@@ -333,7 +333,7 @@
     }
 }
 .blockEspecialIlustraciones2{
-    background-image: url(multimedia/Fondos/manchaPinturaIlu2.jpg);
+    background-image: url("Multimedia/Fondos/manchaPinturaIlu2.jpg");
     background-position: top;
     background-size: cover;
     height: 10vw;
@@ -341,7 +341,7 @@
 
 /*CSS Arte en Tela*/
 .blockArteTela1{
-    background-image: url("multimedia/Fondos/manchaArteenTela.jpg");
+    background-image: url("Multimedia/Fondos/manchaArteenTela.jpg");
     background-size: cover;
     background-position: bottom ;
     .blockArteTela1_1{
@@ -387,7 +387,7 @@
 }
 .blockEspecialArteTela{
     height: 15vw;
-    background-image: url("multimedia/Fondos/manchaArteenTela2.jpg");
+    background-image: url("Multimedia/Fondos/manchaArteenTela2.jpg");
     background-position: top;
     background-size: cover;
 }
@@ -421,7 +421,7 @@
 
 /*CSS Pinturas*/
 .blockPintura1{
-    background-image: url("multimedia/Fondos/pinturaBanner1.jpg");
+    background-image: url("Multimedia/Fondos/pinturaBanner1.jpg");
     background-size: cover;
     height: 50vw;
     .blockPintura1_1{
@@ -481,7 +481,7 @@
     color: white;
 }
 .blockPintura3{
-    background-image: url("multimedia/Fondos/fondoColoreando.jpg");
+    background-image: url("Multimedia/Fondos/fondoColoreando.jpg");
     background-position: center;
     background-size: cover;
     display: flex;
@@ -492,7 +492,7 @@
     }
 }
 .blockPintura4{
-    background-image: url("multimedia/Fondos/fondoPlural.jpg");
+    background-image: url("Multimedia/Fondos/fondoPlural.jpg");
     background-position: center;
     background-size: cover;
     display: flex;
@@ -507,7 +507,7 @@
     }
 }
 .blockPintura5{
-    background-image: url("multimedia/Fondos/fondoTuLuz.jpg");
+    background-image: url("Multimedia/Fondos/fondoTuLuz.jpg");
     background-position: center;
     background-size: cover;
     display: flex;
@@ -577,9 +577,11 @@ body{
     /*Navegador*/
 nav{
     background-color: #fef0cd;
-    nav ul li{
-        padding-left: 5vw;
-    }
+}
+nav ul li{
+    padding-left: 2vw;
+    font-family: JMH Typewriter;
+    font-size: 1.5vw;
 }
     /*Pie de Pagina*/
 .redesSociales{
