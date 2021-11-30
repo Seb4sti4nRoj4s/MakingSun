@@ -152,6 +152,7 @@
   background-color: #ebf1f4;
   background-size: contain;
   padding: 3vw;
+  padding-bottom: 10vw;
 }
 
 .blockIndex5 .blockIndex5_1 {
@@ -199,22 +200,6 @@
 .blockIndex5 .imagenTrabajo {
   width: 20vw;
   height: 20vw;
-}
-
-.blockIndex6 {
-  background-color: #f95b79;
-  text-align: center;
-  padding: 5vw;
-  font-family: JMH Typewriter;
-}
-
-.blockIndex6 .botonRedesSocialesIndex {
-  background-color: #f95b79;
-}
-
-.blockIndex6 .botonRedesSocialesIndex .iconoRedesSociales {
-  height: 5vw;
-  width: 5vw;
 }
 
 .piePaginaIndex {
@@ -611,7 +596,7 @@
 .blockPintura1 .blockPintura1_3 {
   background-color: #a91b0d;
   height: 15vw;
-  width: 53.5vw;
+  width: 52vw;
   z-index: 2;
   position: absolute;
   margin-left: 46vw;
@@ -630,7 +615,7 @@
 
 .blockPintura1 .blockPintura1_5 {
   height: 14vw;
-  width: 52.5vw;
+  width: 51.5vw;
   z-index: 4;
   position: absolute;
   margin-left: 46.4vw;
@@ -786,6 +771,56 @@ nav ul li {
 }
 
 /*Pie de Pagina*/
+.piePagina {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.piePagina .imagenPiePagina {
+  height: 50vw;
+  width: 60vw;
+}
+
+.piePagina .piePagina2Index {
+  background-color: #f95b79;
+  font-family: JMH Typewriter;
+  text-align: center;
+  width: 100%;
+}
+
+.piePagina .piePagina2Index .textoPiePagina1 {
+  color: black;
+  font-size: 3.5vw;
+  padding: 5vw;
+  letter-spacing: .5vw;
+}
+
+.piePagina .piePagina2Index .textoPiePagina1 i {
+  color: #fed351;
+}
+
+.piePagina .piePagina2Index .textoPiePagina2 {
+  color: white;
+  font-size: 2.5vw;
+  letter-spacing: .5vw;
+}
+
+.piePagina .piePagina2Index .botonRedesSociales {
+  background-color: #f95b79;
+}
+
+.piePagina .piePagina2Index .botonRedesSociales .iconoRedesSociales {
+  height: 3vw;
+  width: 3vw;
+}
+
+.piePagina .piePagina2Index .textoPiePagina3 {
+  color: white;
+  font-size: 2.5vw;
+  padding-top: 5vw;
+}
+
 .redesSociales {
   -ms-grid-column: 1;
   grid-column: 1;

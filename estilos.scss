@@ -99,6 +99,7 @@
     background-color: #ebf1f4;
     background-size: contain;
     padding: 3vw;
+    padding-bottom: 10vw;
     .blockIndex5_1{
         display: flex;
         flex-flow: column;
@@ -121,19 +122,6 @@
             width: 20vw;
             height: 20vw;
         }
-}
-.blockIndex6{
-    background-color: #f95b79;
-    text-align: center;
-    padding: 5vw;
-    font-family: JMH Typewriter;
-    .botonRedesSocialesIndex{
-        background-color: #f95b79;
-        .iconoRedesSociales{
-            height: 5vw;
-            width: 5vw;
-        }
-    }
 }
 .piePaginaIndex{
     display: grid;
@@ -444,7 +432,7 @@
     .blockPintura1_3{
         background-color: #a91b0d;
         height: 15vw;
-        width: 53.5vw;
+        width: 52vw;
         z-index: 2;
         position: absolute;
         margin-left: 46vw;
@@ -461,7 +449,7 @@
     }
     .blockPintura1_5{
         height: 14vw;
-        width: 52.5vw;
+        width: 51.5vw;
         z-index: 4;
         position: absolute;
         margin-left: 46.4vw;
@@ -584,6 +572,44 @@ nav ul li{
     font-size: 1.5vw;
 }
     /*Pie de Pagina*/
+.piePagina{
+    display: flex;
+    .imagenPiePagina{
+        height: 50vw;
+        width: 60vw;
+    }.piePagina2Index{
+        background-color: #f95b79;
+        font-family: JMH Typewriter;
+        text-align: center;
+        width: 100%;
+        .textoPiePagina1{
+            color: black;
+            font-size: 3.5vw;
+            padding: 5vw;
+            letter-spacing: .5vw;
+            i{
+                color: #fed351;
+            }
+        }
+        .textoPiePagina2{
+            color: white;
+            font-size: 2.5vw;
+            letter-spacing: .5vw;
+        }
+        .botonRedesSociales{
+            background-color: #f95b79;
+            .iconoRedesSociales{
+                height: 3vw;
+                width: 3vw;
+            }
+        }
+        .textoPiePagina3{
+            color: white;
+            font-size: 2.5vw;
+            padding-top: 5vw;
+        }
+    }
+}
 .redesSociales{
     grid-column: 1;
     grid-row: 1;
