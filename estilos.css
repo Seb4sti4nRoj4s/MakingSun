@@ -202,25 +202,43 @@
   height: 20vw;
 }
 
-.piePaginaIndex {
-  display: -ms-grid;
-  display: grid;
-  padding-left: 10vw;
+.piePagina2Index {
   background-color: #f95b79;
-}
-
-.piePaginaIndex .navPiePaginaIndex {
-  background-color: #f95b79;
-}
-
-.piePaginaIndex .navPiePaginaIndex ul {
-  list-style: none;
-}
-
-.piePaginaIndex .navPiePaginaIndex ul li {
-  font-size: 1vw;
   font-family: JMH Typewriter;
-  text-align: start;
+  text-align: center;
+  width: 100%;
+}
+
+.piePagina2Index .textoPiePagina1 {
+  color: black;
+  font-size: 3.5vw;
+  padding: 5vw;
+  letter-spacing: .5vw;
+}
+
+.piePagina2Index .textoPiePagina1 i {
+  color: #fed351;
+}
+
+.piePagina2Index .textoPiePagina2 {
+  color: white;
+  font-size: 2.5vw;
+  letter-spacing: .5vw;
+}
+
+.piePagina2Index .botonRedesSociales {
+  background-color: #f95b79;
+}
+
+.piePagina2Index .botonRedesSociales .iconoRedesSociales {
+  height: 3vw;
+  width: 3vw;
+}
+
+.piePagina2Index .textoPiePagina3 {
+  color: white;
+  font-size: 2.5vw;
+  padding-top: 5vw;
 }
 
 /*CSS Sobre Mi*/
@@ -302,6 +320,7 @@
 .blockSobreMi4 {
   background-color: white;
   padding-left: 30vw;
+  padding-bottom: 10vw;
 }
 
 .blockSobreMi4 .imagenLogoSobreMi {
@@ -309,41 +328,43 @@
   height: 40vw;
 }
 
-.blockSobreMi5 {
+.piePagina2SobreMi {
   background-color: white;
+  font-family: JMH Typewriter;
   text-align: center;
+  width: 100%;
+}
+
+.piePagina2SobreMi .textoPiePagina1 {
+  color: black;
+  font-size: 3.5vw;
   padding: 5vw;
-  font-family: JMH Typewriter;
+  letter-spacing: .5vw;
 }
 
-.blockSobreMi5 .botonRedesSocialesSobreMi {
+.piePagina2SobreMi .textoPiePagina1 i {
+  color: #fed351;
+}
+
+.piePagina2SobreMi .textoPiePagina2 {
+  color: black;
+  font-size: 2.5vw;
+  letter-spacing: .5vw;
+}
+
+.piePagina2SobreMi .botonRedesSociales {
   background-color: white;
 }
 
-.blockSobreMi5 .botonRedesSocialesSobreMi .iconoRedesSociales {
-  height: 5vw;
-  width: 5vw;
+.piePagina2SobreMi .botonRedesSociales .iconoRedesSociales {
+  height: 3vw;
+  width: 3vw;
 }
 
-.piePaginaSobreMi {
-  background-color: white;
-  display: -ms-grid;
-  display: grid;
-  padding-left: 10vw;
-}
-
-.piePaginaSobreMi .navPiePaginaSobreMi {
-  background-color: white;
-}
-
-.piePaginaSobreMi .navPiePaginaSobreMi ul {
-  list-style: none;
-}
-
-.piePaginaSobreMi .navPiePaginaSobreMi ul li {
-  font-size: 1vw;
-  font-family: JMH Typewriter;
-  text-align: start;
+.piePagina2SobreMi .textoPiePagina3 {
+  color: black;
+  font-size: 2.5vw;
+  padding-top: 5vw;
 }
 
 /*CSS Ilustracion*/
@@ -540,33 +561,7 @@
 
 .blockArteTela5 .videoArteTela2 {
   width: 100%;
-}
-
-.blockArteTela6 {
-  background-color: white;
-  text-align: center;
-  padding: 5vw;
-  font-family: JMH Typewriter;
-}
-
-.piePaginaArteTela {
-  display: -ms-grid;
-  display: grid;
-  background-color: #fef0cd;
-}
-
-.piePaginaArteTela .navPiePaginaArteTela {
-  background-color: #fef0cd;
-}
-
-.piePaginaArteTela .navPiePaginaArteTela ul {
-  list-style: none;
-}
-
-.piePaginaArteTela .navPiePaginaArteTela ul li {
-  font-size: 1vw;
-  font-family: JMH Typewriter;
-  text-align: start;
+  padding-bottom: 10vw;
 }
 
 /*CSS Pinturas*/
@@ -765,7 +760,7 @@ nav {
 }
 
 nav ul li {
-  padding-left: 2vw;
+  padding-left: 5vw;
   font-family: JMH Typewriter;
   font-size: 1.5vw;
 }
@@ -780,80 +775,6 @@ nav ul li {
 .piePagina .imagenPiePagina {
   height: 50vw;
   width: 60vw;
-}
-
-.piePagina .piePagina2Index {
-  background-color: #f95b79;
-  font-family: JMH Typewriter;
-  text-align: center;
-  width: 100%;
-}
-
-.piePagina .piePagina2Index .textoPiePagina1 {
-  color: black;
-  font-size: 3.5vw;
-  padding: 5vw;
-  letter-spacing: .5vw;
-}
-
-.piePagina .piePagina2Index .textoPiePagina1 i {
-  color: #fed351;
-}
-
-.piePagina .piePagina2Index .textoPiePagina2 {
-  color: white;
-  font-size: 2.5vw;
-  letter-spacing: .5vw;
-}
-
-.piePagina .piePagina2Index .botonRedesSociales {
-  background-color: #f95b79;
-}
-
-.piePagina .piePagina2Index .botonRedesSociales .iconoRedesSociales {
-  height: 3vw;
-  width: 3vw;
-}
-
-.piePagina .piePagina2Index .textoPiePagina3 {
-  color: white;
-  font-size: 2.5vw;
-  padding-top: 5vw;
-}
-
-.redesSociales {
-  -ms-grid-column: 1;
-  grid-column: 1;
-  -ms-grid-row: 1;
-  grid-row: 1;
-  font-size: 1vw;
-  font-family: JMH Typewriter;
-  text-align: center;
-}
-
-.navegadorPiePagina {
-  -ms-grid-column: 2;
-  grid-column: 2;
-  -ms-grid-row: 1;
-  grid-row: 1;
-}
-
-.miTrabajoPiePagina {
-  -ms-grid-column: 3;
-  grid-column: 3;
-  -ms-grid-row: 1;
-  grid-row: 1;
-}
-
-.derechosAutor {
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
-  grid-column: 1 / span 3;
-  -ms-grid-row: 2;
-  grid-row: 2;
-  font-size: 1vw;
-  font-family: JMH Typewriter;
-  text-align: center;
 }
 
 /*Vista Movil*/
