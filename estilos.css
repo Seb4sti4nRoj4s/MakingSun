@@ -789,60 +789,61 @@ nav ul li {
     -webkit-box-direction: normal;
         -ms-flex-flow: column;
             flex-flow: column;
+    padding-bottom: .8vw;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
-  .blockIndex1_1 {
+  .blockIndex1 .blockIndex1_1 {
     background-color: #f0c552;
-    width: 58vw;
+    width: 51vw;
+    height: 50vw;
+  }
+  .blockIndex1 .imagenInicioIndex {
+    width: 48vw;
     height: 48vw;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .imagenInicioIndex {
-    width: 53vw;
-    height: 45vw;
-  }
-  .blockIndex1_2 {
-    text-align: center;
-    padding: 4vw;
   }
   .blockIndex2 {
-    padding: 3%;
-    padding-top: 10vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
-    background-color: #d7c175;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .blockIndex2 .bannerIndex1 {
+    height: 50vw;
+    width: 50vw;
+  }
+  .blockIndex2 .bannerIndex2 {
+    height: 50vw;
+    width: 50vw;
+    margin-top: 5vw;
+    margin-right: 5vw;
+  }
+  .blockIndex2 .bannerIndex3 {
+    height: 50vw;
+    width: 50vw;
+    margin-top: 5vw;
+    margin-right: 5vw;
+  }
+  .blockIndex2 .bannerIndex4 {
+    height: 50vw;
+    width: 50vw;
+    margin-top: 5vw;
+    margin-right: 5vw;
+  }
+  .blockIndex3 {
+    background-image: url("Multimedia/Fondos/fondoVideo1.png");
     background-size: cover;
   }
-  .bannerIndex1 {
-    height: 30vw;
-    width: 30vw;
-    margin-left: 10vw;
-  }
-  .bannerIndex2 {
-    height: 30vw;
-    width: 30vw;
-    margin-left: 11vw;
-  }
-  .bannerIndex3 {
-    height: 30vw;
-    width: 30vw;
-    margin-left: 10vw;
-    margin-top: 10vw;
-  }
-  .bannerIndex4 {
-    height: 30vw;
-    width: 30vw;
-    margin-left: 11vw;
-    margin-top: 10vw;
+  .blockIndex3 .videoIndex1 {
+    width: 75vw;
+    height: 54vw;
   }
   .blockIndex5 {
     display: -webkit-box;
@@ -852,10 +853,10 @@ nav ul li {
     -webkit-box-direction: normal;
         -ms-flex-flow: column;
             flex-flow: column;
-    background-size: contain;
     padding: 3vw;
+    padding-bottom: 10vw;
   }
-  .blockIndex5_1 {
+  .blockIndex5 .blockIndex5_1 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -863,12 +864,9 @@ nav ul li {
     -webkit-box-direction: normal;
         -ms-flex-flow: column;
             flex-flow: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding-bottom: 6.5vw;
+    margin-right: 7vw;
   }
-  .blockIndex5_2 {
+  .blockIndex5 .blockIndex5_2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -876,12 +874,10 @@ nav ul li {
     -webkit-box-direction: normal;
         -ms-flex-flow: column;
             flex-flow: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding-bottom: 6.5vw;
+    margin-right: 12vw;
+    margin-top: 15vw;
   }
-  .blockIndex5_3 {
+  .blockIndex5 .blockIndex5_3 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -889,66 +885,38 @@ nav ul li {
     -webkit-box-direction: normal;
         -ms-flex-flow: column;
             flex-flow: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding-bottom: 6.5vw;
+    margin-right: 12vw;
+    margin-top: 15vw;
   }
-  .imagenTrabajo {
-    width: 45vw;
-    height: 45vw;
+  .blockIndex5 .imagenTrabajo {
+    width: 50vw;
+    height: 50vw;
   }
-  .blockIndex6 {
+  .piePagina2Index {
     background-color: #f95b79;
-    text-align: center;
-    padding: 5vw;
-    font-family: JMH Typewriter;
-  }
-  .botonRedesSociales {
-    background-color: #f95b79;
-  }
-  .iconoRedesSociales {
-    width: 10vw;
-    height: 10vw;
-  }
-  .piePaginaIndex {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
-    padding-left: 10vw;
-    background-color: #f95b79;
-  }
-  .redesSociales {
-    font-size: 4vw;
     font-family: JMH Typewriter;
     text-align: center;
+    width: 100%;
   }
-  .navPiePaginaIndex {
+  .piePagina2Index .textoPiePagina1 {
+    font-size: 10vw;
+  }
+  .piePagina2Index .textoPiePagina1 i {
+    color: #fed351;
+  }
+  .piePagina2Index .textoPiePagina2 {
+    font-size: 6vw;
+  }
+  .piePagina2Index .botonRedesSociales {
     background-color: #f95b79;
   }
-  .navPiePaginaIndex ul {
-    list-style: none;
-    padding: 0%;
+  .piePagina2Index .botonRedesSociales .iconoRedesSociales {
+    height: 12vw;
+    width: 12vw;
   }
-  .navPiePaginaIndex ul li {
-    font-size: 4vw;
-    font-family: JMH Typewriter;
-    text-align: center;
-  }
-  .miTrabajoPiePagina {
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-    padding-bottom: 8vw;
-  }
-  .derechosAutor {
-    font-size: 4vw;
-    font-family: JMH Typewriter;
-    text-align: center;
+  .piePagina2Index .textoPiePagina3 {
+    font-size: 6vw;
+    padding-top: 10vw;
   }
   /*Titulos*/
   .tituloEspecial {
@@ -965,9 +933,26 @@ nav ul li {
     font-family: Bacalisties;
   }
   .subtitulos {
-    font-size: 7vw;
+    font-size: 12vw;
     letter-spacing: 1vw;
     font-family: JMH Typewriter;
+  }
+  /*Pie de Pagina*/
+  .piePagina {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .piePagina .imagenPiePagina {
+    height: 70vw;
+    width: 75vw;
   }
   /*CSS Sobre Mi*/
   .blockSobreMi2_1 {

@@ -589,127 +589,107 @@ nav ul li{
         background-color: #fef0cd;
         display: flex;
         flex-flow: column;
+        padding-bottom: .8vw;
         align-items: center;
-    }
         .blockIndex1_1{
             background-color: #f0c552;
-            width: 58vw;
-            height: 48vw;
-            display: flex;
+            width: 51vw;
+            height: 50vw;
         }
             .imagenInicioIndex{
-                width: 53vw;
-                height: 45vw;
+                width: 48vw;
+                height: 48vw;
             }
-        .blockIndex1_2{
-            text-align: center;
-            padding: 4vw;
-        }
+    }
     .blockIndex2{
-        padding: 3%;
-        padding-top: 10vw;
         display: flex;
-        flex-flow: row wrap;
-        background-color: #d7c175;
-        background-size: cover;
-        
-        }
+        flex-flow: column;
+        align-items: center;
         .bannerIndex1{
-            height: 30vw;
-            width: 30vw;
-            margin-left: 10vw;
+            height: 50vw;
+            width: 50vw;
         }
         .bannerIndex2{
-            height: 30vw;
-            width: 30vw;
-            margin-left: 11vw;
+            height: 50vw;
+            width: 50vw;
+            margin-top: 5vw;
+            margin-right: 5vw;
         }
         .bannerIndex3{
-            height: 30vw;
-            width: 30vw;
-            margin-left: 10vw;
-            margin-top: 10vw;
+            height: 50vw;
+            width: 50vw;
+            margin-top: 5vw;
+            margin-right: 5vw;
         }
         .bannerIndex4{
-            height: 30vw;
-            width: 30vw;
-            margin-left: 11vw;
-            margin-top: 10vw;
+            height: 50vw;
+            width: 50vw;
+            margin-top: 5vw;
+            margin-right: 5vw;
         }
+    }
+    .blockIndex3{
+        background-image: url("Multimedia/Fondos/fondoVideo1.png");
+        background-size: cover;
+        .videoIndex1{
+            width: 75vw;
+            height: 54vw;
+        }
+    }
     .blockIndex5{
         display: flex;
         flex-flow: column;
-        background-size: contain;
         padding: 3vw;
-    }
+        padding-bottom: 10vw;
         .blockIndex5_1{
             display: flex;
             flex-flow: column;
-            align-items: center;
-            padding-bottom: 6.5vw;
+            margin-right: 7vw;
         }
         .blockIndex5_2{
             display: flex;
             flex-flow: column;
-            align-items: center;
-            padding-bottom: 6.5vw;
-                
+            margin-right: 12vw;
+            margin-top: 15vw;
         }
         .blockIndex5_3{
             display: flex;
             flex-flow: column;
-            align-items: center;
-            padding-bottom: 6.5vw;
+            margin-right: 12vw;
+            margin-top: 15vw;
         }
             .imagenTrabajo{
-                width: 45vw;
-                height: 45vw;
+                width: 50vw;
+                height: 50vw;
             }
-    .blockIndex6{
-        background-color: #f95b79;
-        text-align: center;
-        padding: 5vw;
-        font-family: JMH Typewriter;
     }
+    .piePagina2Index{
+        background-color: #f95b79;
+        font-family: JMH Typewriter;
+        text-align: center;
+        width: 100%;
+        .textoPiePagina1{
+            font-size: 10vw;
+            i{
+                color: #fed351;
+            }
+        }
+        .textoPiePagina2{
+            font-size: 6vw;
+        }
         .botonRedesSociales{
             background-color: #f95b79;
-        }
             .iconoRedesSociales{
-                width: 10vw;
-                height: 10vw;
+                height: 12vw;
+                width: 12vw;
             }
-    .piePaginaIndex{
-        display: flex;
-        flex-flow: column;
-        padding-left: 10vw;
-        background-color: #f95b79;
-    }
-        .redesSociales{
-            font-size: 4vw;
-            font-family: JMH Typewriter;
-            text-align: center;
         }
-    .navPiePaginaIndex{
-        background-color: #f95b79;
-    }
-        .navPiePaginaIndex ul{
-            list-style: none;
-            padding: 0%;
+        .textoPiePagina3{
+            font-size: 6vw;
+            padding-top: 10vw;
         }
-            .navPiePaginaIndex ul li{
-                font-size: 4vw;
-                font-family: JMH Typewriter;
-                text-align: center;
-            }
-    .miTrabajoPiePagina{
-        align-self: center;
-        padding-bottom: 8vw;
     }
-    .derechosAutor{
-        font-size: 4vw;
-        font-family: JMH Typewriter;
-        text-align: center;
-    }
+    
     /*Titulos*/
     .tituloEspecial{
         font-size: 12vw;
@@ -725,10 +705,22 @@ nav ul li{
         font-family: Bacalisties;
     }
     .subtitulos{
-        font-size: 7vw;
+        font-size: 12vw;
         letter-spacing: 1vw;
         font-family: JMH Typewriter;
     }
+    /*Pie de Pagina*/
+    .piePagina{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        .imagenPiePagina{
+            height: 70vw;
+            width: 75vw;
+        }
+    }
+
+
     /*CSS Sobre Mi*/
 
     .blockSobreMi2_1{
