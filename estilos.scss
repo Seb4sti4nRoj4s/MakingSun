@@ -219,7 +219,7 @@
 }
 .blockSobreMi4{
     background-color: white;
-    padding-left: 30vw;
+    align-self: center;
     padding-bottom: 10vw;
     .imagenLogoSobreMi{
         width: 40vw;
@@ -690,6 +690,66 @@ nav ul li{
         }
     }
     
+    /*CSS Sobre Mi*/
+    .blockSobreMi2{
+        height: 120vw;
+        .blockSobreMi2_1{
+            margin-top: 7vw;
+            margin-left: 9vw;
+        }
+            .fotoAleSobreMi{
+                width: 50vw;
+                height: 80vw;
+            }
+        .blockSobreMi2_2{
+            width: 56vw;
+            height: 105vw;
+            margin-top: 12vw;
+            margin-left: 6vw;
+        }
+            .textoSobreMi1{
+                font-size: 6vw;
+                padding-top: 76vw;
+            }
+    }
+    .blockSobreMi3{
+        background-color: white;
+        .textoSobreMi2{
+            font-size: 6vw;
+            text-align: justify;
+            padding: 5vw;
+        }
+    }
+    .blockSobreMi4{
+        padding-bottom: 15vw;
+        .imagenLogoSobreMi{
+            width: 60vw;
+            height: 60vw;
+        }
+    }
+    .piePagina2SobreMi{
+        text-align: center;
+        width: 100%;
+        .textoPiePagina1{
+            font-size: 10vw;
+        }
+        .textoPiePagina2{
+            font-size: 6vw;
+        }
+        .botonRedesSociales{
+            background-color: white;
+            .iconoRedesSociales{
+                height: 12vw;
+                width: 12vw;
+            }
+        }
+        .textoPiePagina3{
+            color: black;
+            font-size: 6vw;
+            padding-top: 10vw;
+        }
+    }
+
     /*Titulos*/
     .tituloEspecial{
         font-size: 12vw;
@@ -719,58 +779,5 @@ nav ul li{
             width: 75vw;
         }
     }
-
-
-    /*CSS Sobre Mi*/
-
-    .blockSobreMi2_1{
-        position: absolute;
-        z-index: 1;
-        margin-top: 4vw;
-        margin-left: 19vw;
-    }
-        .fotoAleSobreMi{
-            width: 31vw;
-            height: 46vw;
-        }
-    .blockSobreMi2_2{
-        width: 41vw;
-        height: 57vw;
-        margin-top: 9vw;
-        margin-left: 14vw;
-        position: absolute;
-        z-index: 0;
-        background-color: #f0c552;
-        text-align: center;
-    }
-        .textoSobreMi1{
-            font-family: JMH Typewriter;
-            font-size: 3.5vw;
-            padding-top: 43vw;
-        }
-    .blockSobreMi3{
-        background-color: white;
-        display: flex;
-        flex-flow: row wrap;
-    }
-        .textoSobreMi2{
-            font-family: JMH Typewriter;
-            font-size: 4vw;
-            text-align: center;
-            padding-bottom: 5vw;
-            padding-right: 10vw;
-            padding-left: 10vw;
-        }
-    .piePaginaSobreMi{
-        background-color: white;
-        display: flex;
-        flex-flow: column;
-    }
-        .navPiePaginaSobreMi ul li{
-            font-size: 3.5vw;
-            font-family: JMH Typewriter;
-            text-align: center;
-            padding-right: 10vw;
-        }
 }
 
